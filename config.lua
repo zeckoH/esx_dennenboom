@@ -8,16 +8,16 @@ Config.Marker = {
 }
 
 Config.PoliceNumberRequired = 4
-Config.TimerBeforeNewRob    = 120000 -- The cooldown timer on a store after robbery was completed / canceled, in seconds
+Config.TimerBeforeNewRob    = 120000 -- Cooldown timer 
 
 Config.MaxDistance    = 10   -- max distance from the robbary, going any longer away from it will to cancel the robbary
-Config.GiveBlackMoney = true -- give black money? If disabled it will give cash instead
+Config.GiveBlackMoney = true -- geef zwartgeld, if false krijgt overvaller witgeld op de bank. 
 
 Stores = {
 	["store_one"] = {
 		position = { x = -2957.53, y = 481.63, z = 15.7 },
 		reward = math.random(30000, 70000),
-		nameOfStore = "Winkel - Mirrorpark",
+		nameOfStore = "Winkel - Mirrorpark", -- Naam van de winkel
 		secondsRemaining = 500, -- seconds
 		lastRobbed = 0
 	},
