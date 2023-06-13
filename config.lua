@@ -16,7 +16,7 @@ Config.GiveBlackMoney = true -- geef zwartgeld, if false krijgt overvaller witge
 Stores = {
 	["store_one"] = {
 		position = { x = -2957.53, y = 481.63, z = 15.7 },
-		reward = math.random(30000, 70000),
+		reward = math.random(30000, 70000), -- Buit van de winkel (tussen 30.000 - 70.000) <- verander naar gewenste aantal. 
 		nameOfStore = "Winkel - Mirrorpark", -- Naam van de winkel
 		secondsRemaining = 500, -- seconds
 		lastRobbed = 0
